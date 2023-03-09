@@ -41,6 +41,9 @@
   img{
     width: 20%;
   }
+  @media (max-width: 28.75em){
+    img{width:50%;}
+  }
   .container-header{
   
     width: 80%;
