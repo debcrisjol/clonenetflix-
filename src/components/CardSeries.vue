@@ -16,15 +16,15 @@
   
       <div class=" col card-content p-3">
         <div>
-          <span> <strong>Titolo: </strong> </span>{{ ObjectSeries.name }}
+          <span> <strong>Title: </strong> </span>{{ ObjectSeries.name }}
         </div>
         <div>
-          <span> <strong>Titolo Originale: </strong> </span
+          <span> <strong>Original Title: </strong> </span
           >{{ ObjectSeries.original_name }}
         </div>
   
         <div>
-          <span> <strong>Lingua: </strong></span>
+          <span> <strong>Language: </strong></span>
           <img :src=" `https://www.countryflagicons.com/SHINY/64/${
             (ObjectSeries.original_language == 'en') ? 'GB' : ( ( ObjectSeries.original_language == 'ja' ) ? 'JP' :  ( ObjectSeries.original_language == 'hi' ) ? 'IN' : ( ObjectSeries.original_language == 'zh' ) ? 'CN' : ObjectSeries.original_language. toUpperCase () )
             }.png` "
@@ -32,7 +32,7 @@
         </div>
         
         <div>
-          <span> <strong>Voto: </strong></span>{{ ObjectSeries.vote_average }}
+          <span> <strong>Vote: </strong></span>{{ ObjectSeries.vote_average }}
         </div>
   
         <div>
