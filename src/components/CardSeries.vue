@@ -1,7 +1,7 @@
 <template>
-    <div class="container-cards">
+    <div class="container container-cards">
       {{starsRating()}}
-      <div class="card-img">
+      <div class="col card-img">
         <img
           v-if="ObjectSeries.poster_path"
           :src="`http://image.tmdb.org/t/p/w185/${ObjectSeries.poster_path}`"
@@ -14,7 +14,7 @@
         />
       </div>
   
-      <div class="card-content p-3">
+      <div class=" col card-content p-3">
         <div>
           <span> <strong>Titolo: </strong> </span>{{ ObjectSeries.name }}
         </div>
