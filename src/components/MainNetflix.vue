@@ -1,11 +1,11 @@
 <template>
   <div class="container-main">
     <div>
-      <h3>FILM</h3>
+      <h3>FILMS</h3>
       <FilmList :arrayResultApp="arrayResultApp"/>
     </div>
     <div>
-      <h3>SERIE TV</h3>
+      <h3>SERIES </h3>
       <SeriesList :arraySeriesApp="arraySeriesApp"/>
     </div>
 

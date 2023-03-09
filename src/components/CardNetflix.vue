@@ -17,14 +17,14 @@
 
     <div class="card-content p-3">
       <div>
-        <span> <strong>Titolo: </strong> </span>{{ ObjectMovies.title }}
+        <span> <strong>Title: </strong> </span>{{ ObjectMovies.title }}
       </div>
       <div>
-        <span> <strong>Titolo Originale: </strong> </span
+        <span> <strong>Original Title: </strong> </span
         >{{ ObjectMovies.original_title }}
       </div>
       <div>
-        <span><strong>Lingua: </strong></span>
+        <span><strong>Language: </strong></span>
 
         <img
           :src="`https://www.countryflagicons.com/SHINY/64/${
@@ -38,7 +38,7 @@
       </div>
 
       <div>
-        <span> <strong>Voto: </strong></span>{{ ObjectMovies.vote_average }}
+        <span> <strong>Vote: </strong></span>{{ ObjectMovies.vote_average }}
       </div>
 
       <div>
